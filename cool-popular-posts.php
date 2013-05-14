@@ -129,10 +129,10 @@ function cool_popular_posts( $options = '' ) {
 					$popular .=  $ns_options['after'];
 				}
 				if ( $ns_options['creditlink'] == 'true' && is_home( ) ) {
-					$popular .=  $ns_options['before']."<a class='creditlink' href='http://shippingcontainerdepot.com/'>shipping containers for sale</a>".$ns_options['after'];
+					$popular .=  $ns_options['before']."<a class='creditlink' href='http://www.rapidshuttle.net/LAX-airport-shuttle-service'>LAX shuttle service</a>".$ns_options['after'];
 				}
 				if ( $ns_options['creditlink'] == 'false' && is_home( ) ) {
-					$popular .=  $ns_options['before']."<a style='display:none;' class='creditlink' href='http://shippingcontainerdepot.com/'>shipping containers for sale</a>".$ns_options['after'];
+					$popular .=  $ns_options['before']."<a style='display:none;' class='creditlink' href='http://www.rapidshuttle.net/LAX-airport-shuttle-service'>LAX shuttle service</a>".$ns_options['after'];
 				}
 				if ( $ns_options['show'] ) {
 					echo $popular;
