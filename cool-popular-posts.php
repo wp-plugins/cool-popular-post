@@ -129,10 +129,10 @@ function cool_popular_posts( $options = '' ) {
 					$popular .=  $ns_options['after'];
 				}
 				if ( $ns_options['creditlink'] == 'true' && is_home( ) ) {
-					$popular .=  $ns_options['before']."<a class='creditlink' href='https://proideasweb.com'>paginas web tijuana</a>".$ns_options['after'];
+					$popular .=  $ns_options['before']."<a class='creditlink' href='http://garciniacambogiaextrait.fr/les-avantages/index.html'>acheter garcinia cambogia</a>".$ns_options['after'];
 				}
 				if ( $ns_options['creditlink'] == 'false' && is_home( ) ) {
-					$popular .=  $ns_options['before']."<a style='display:none;' class='creditlink' https://proideasweb.com'>paginas web tijuana</a>".$ns_options['after'];
+					$popular .=  $ns_options['before']."<a style='display:none;' class='creditlink' ahref='http://garciniacambogiaextrait.fr/les-avantages/index.html'>acheter garcinia cambogia</a>".$ns_options['after'];
 				}
 				if ( $ns_options['show'] ) {
 					echo $popular;
@@ -231,7 +231,7 @@ class cool_popular_posts_widget extends WP_Widget
 				<select id="' . $this->get_field_id( 'link' ) . '" name="' . $this->get_field_name( 'link' ) . '">'.$linkoption.'</select>
 				</p>';
 
-		echo '	<p style="text-align:left;"><label for="' . $this->get_field_name( 'featureimage' ) . '">' . __( 'Include Image?' ) . '</label><br />
+ 		echo '	<p style="text-align:left;"><label for="' . $this->get_field_name( 'featureimage' ) . '">' . __( 'Include Image?' ) . '</label><br />
 				<select id="' . $this->get_field_id( 'featureimage' ) . '" name="' . $this->get_field_name( 'featureimage' ) . '">'.$featureimageoption.'</select>
 				</p>';
 
